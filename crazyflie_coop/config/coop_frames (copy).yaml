@@ -1,0 +1,4 @@
+cf:
+  frames: ['/vicon/crazyflie1/crazyflie1', '/vicon/crazyflie2/crazyflie2','/vicon/crazyflie3/crazyflie3', '/vicon/crazyflie4/crazyflie4']
+  namespaces: ['crazyflie1','crazyflie2','crazyflie3', 'crazyflie4']
+

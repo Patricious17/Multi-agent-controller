@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="worldFrame" default="world"/>
+  <node name="coop" pkg="crazyflie_coop" type="crazyflie_coop" output="screen">
+    <param name="worldFrame" value="$(arg worldFrame)" />
+    <rosparam command="load" file="$(find crazyflie_coop)/config/coop_frames.yaml" />    
+  </node>
+</launch>
