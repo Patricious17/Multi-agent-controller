@@ -5,7 +5,7 @@ cd ~/dev/gitRepo
 
 #clone UTARI demo
 git clone -b master --single-branch git@gitlab.com:patrik17/Cooperative_UAV_formation.git
-cp -a ~/dev/gitRepo/consensus_control/* ~/dev/CWS/src/
+cp -a ~/dev/gitRepo/Cooperative_UAV_formation/* ~/dev/CWS/src/
 
 #clone joystick drivers and copy joy package 
 cd ~/dev/gitRepo
