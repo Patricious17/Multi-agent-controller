@@ -2,7 +2,7 @@
 #include <ros/console.h>
 #include <tf/transform_listener.h>
 #include <tf/transform_datatypes.h>
-//#include <Vector3.h> for some god damn reason it works without including this
+//#include <Vector3.h>
 #include <std_srvs/Empty.h>
 #include <std_srvs/SetBool.h>
 #include <geometry_msgs/Twist.h>
